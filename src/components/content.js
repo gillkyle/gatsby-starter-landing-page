@@ -1,11 +1,14 @@
 import React from "react"
 
 import feature from "../images/feature.png"
+import { COLORS } from "../styles/constants"
 
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <h2>Amazing Features</h2>
-    <p>See what it is that really makes us great</p>
+    <p style={{ color: COLORS.mediumGray }}>
+      See what it is that really makes us great
+    </p>
     <content
       style={{
         display: "grid",
