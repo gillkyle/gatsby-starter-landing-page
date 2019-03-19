@@ -6,7 +6,7 @@ import { COLORS } from "../styles/constants"
 const Footer = ({ siteTitle }) => (
   <footer
     style={{
-      padding: 60,
+      padding: "1rem",
       backgroundColor: COLORS.lightGray,
     }}
   >

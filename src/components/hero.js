@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
       display: "flex",
       alignItems: "center",
       flexDirection: "column",
-      padding: "120px 60px",
+      padding: "4rem 1rem",
     }}
   >
     <div
@@ -26,8 +26,8 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1>Landing Page Starter</h1>
-    <p style={{ maxWidth: 440, textAlign: "center" }}>
+    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
+    <p style={{ textAlign: "center", maxWidth: 440 }}>
       This landing page looks great on all devices and is minimal in design. Add
       what you want and deploy.
     </p>

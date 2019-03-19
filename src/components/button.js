@@ -6,7 +6,7 @@ import "../styles/button.css"
 const Button = ({ children }) => (
   <button
     style={{
-      padding: "15px 60px",
+      padding: ".5rem 2.5rem",
       color: COLORS.lightWhite,
       fontWeight: 700,
       background: GRADIENT,
