@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import Button from "../components/button"
 import { COLORS } from "../styles/constants"
 
 const Footer = ({ siteTitle }) => (
@@ -12,13 +13,15 @@ const Footer = ({ siteTitle }) => (
   >
     <div
       style={{
-        display: "flex",
+        display: "grid",
+        alignItems: "center",
         justifyContent: "space-between",
+        gridTemplateColumns: "repeat(auto-fit, minmax(200px, 240px))",
         padding: "1rem 2rem",
         fontSize: ".85rem",
       }}
     >
-      <div>Contact Us</div>
+      <Button>Get Early Access</Button>
       <div style={{ color: COLORS.mediumGray }}>
         © {new Date().getFullYear()}
         {` `}
