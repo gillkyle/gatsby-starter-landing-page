@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import Button from "../components/button"
 import headerImage from "../images/header.png"
 import MockupContent from "./image"
 import mockupFrame from "../images/mockup-frame.png"
@@ -11,7 +12,7 @@ const Header = ({ siteTitle }) => (
       display: "flex",
       alignItems: "center",
       flexDirection: "column",
-      padding: "60px",
+      padding: "120px 60px",
     }}
   >
     <div
@@ -20,17 +21,18 @@ const Header = ({ siteTitle }) => (
         position: "absolute",
         top: 0,
         zIndex: -5,
-        height: "50vh",
+        height: "100vh",
         width: "100vw",
         opacity: 0.5,
       }}
     />
     <h1>Landing Page Starter</h1>
-    <p>
+    <p style={{ maxWidth: 440, textAlign: "center" }}>
       This landing page looks great on all devices and is minimal in design. Add
       what you want and deploy.
     </p>
-    <div style={{ width: `250px`, position: "relative" }}>
+    <Button>Get Early Access</Button>
+    <div style={{ margin: 60, width: `250px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
         <MockupContent />
       </div>

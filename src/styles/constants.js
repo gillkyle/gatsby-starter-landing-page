@@ -1,6 +1,5 @@
 export const COLORS = {
-  white: "#FFF",
-  lightWhite: "#E4E4F0",
+  lightWhite: "#F4F4F0",
   semiWhite: "rgba(255,255,240,0.25)",
   lightBlue: "#50CAF9",
   blue: "#5390F0",
@@ -12,6 +11,6 @@ export const COLORS = {
   semiGold: "rgba(255,189,10,0.5)",
 }
 
-export const GRADIENT = `linear-gradient(to bottom, #3466AE, #5390F1)`
+export const GRADIENT = `linear-gradient(to top right, #50CAF9, #5368f1)`
 
 export const BORDER_RADIUS = "10px"
