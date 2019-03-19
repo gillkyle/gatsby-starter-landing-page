@@ -1,11 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import { COLORS } from "../styles/constants"
+
 const Footer = ({ siteTitle }) => (
   <footer
     style={{
       padding: 60,
-      backgroundColor: "#f3f5f6",
+      backgroundColor: COLORS.lightGray,
     }}
   >
     <div>Contact</div>
