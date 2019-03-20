@@ -7,8 +7,7 @@ const CallToAction = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
       title="Stay Updated"
-      description="Find out before anyone else when we launch by signing up for our
-      newsletter."
+      description="Give a final call to action because that's what the cool kids are doing."
     />
     <Button>Get Early Access</Button>
   </div>
