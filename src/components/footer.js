@@ -1,7 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Button from "../components/button"
 import { COLORS } from "../styles/constants"
 
 const Footer = ({ siteTitle }) => (
@@ -21,8 +20,8 @@ const Footer = ({ siteTitle }) => (
         fontSize: ".85rem",
       }}
     >
-      <Button>Get Early Access</Button>
-      <div style={{ color: COLORS.mediumGray }}>
+      <div style={{ color: COLORS.blue, fontWeight: 700 }}>Contact Us</div>
+      <div style={{ color: COLORS.gray }}>
         © {new Date().getFullYear()}
         {` `}
         {siteTitle}
