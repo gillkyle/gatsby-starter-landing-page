@@ -9,7 +9,7 @@
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-google-analytics": "^2.0.17",
     "gatsby-plugin-react-helmet": "^3.0.10",
-    "gatsby-plugin-sharp": "^2.0.29",
+    "gatsby-plugin-sharp": "^4.8.0",
     "gatsby-plugin-sitemap": "^2.0.10",
     "gatsby-source-filesystem": "^2.0.27",
     "gatsby-transformer-sharp": "^2.1.17",
@@ -17,7 +17,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
-    "sharp": "^0.22.0"
+    "sharp": "^0.30.1"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
